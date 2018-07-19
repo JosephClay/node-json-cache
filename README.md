@@ -27,11 +27,11 @@ cache.clear();
 ```js
 const cache = jsonCache(filename[, options]);
 ```
-- `filename` - path to cache file
-- `options` - optional
-* `out` - optional, output operations to console, defaults to `false`
-* `wait` - optional, debounce time on operations, defaults to `1000`
-* `ejectable` - optional, save on exit/error, defaults to `false`
+* `filename` - path to cache file
+* `options` - optional
+* `options`.`out` - optional, output operations to console, defaults to `false`
+* `options`.`wait` - optional, debounce time on operations, defaults to `1000`
+* `options`.`ejectable` - optional, save on exit/error, defaults to `false`
 
 ## filesystem perfomance
 Storage operations are batched. Storage is persisted on exit.

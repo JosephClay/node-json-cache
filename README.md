@@ -31,7 +31,7 @@ const cache = jsonCache(filename[, options]);
 - `options` - optional
 * `out` - optional, output operations to console, defaults to `false`
 * `wait` - optional, debounce time on operations, defaults to `1000`
-* `ejectable` - optional, save on exit/error, defaults to `true`
+* `ejectable` - optional, save on exit/error, defaults to `false`
 
 ## filesystem perfomance
 Storage operations are batched. Storage is persisted on exit.

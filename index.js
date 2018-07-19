@@ -22,7 +22,7 @@ export default function jsonCache(filename, config = {}) {
 	const {
 		out = false,
 		wait = 1000,
-		ejectable = true,
+		ejectable = false,
 	} = config;
 
 	const log = logger({ enabled: out });
